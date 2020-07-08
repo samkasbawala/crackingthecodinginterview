@@ -5,6 +5,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 [Chapter 1: Arrays and Strings](#arrays-and-strings)
 - [1.1: Is Unique](#1.1-is-unique)
 - [1.2: Check Permutation](#1.2-check-permutation)
+- [1.3: URLify](#1.3-urlify)
 
 ## Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -14,3 +15,9 @@ Implement an algorithm to determine if a string has all unique characters. What 
 
 ### 1.2 Check Permutation
 Given two strings, write a method to decide if one is a permutation of the other.
+
+### 1.3 URLify
+Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold the additional characters, and the you are given the "true" length of the string.\
+EXAMPLE\
+Input:  'Mr John Smith    ', 13\
+Output: 'Mr%20John%20Smith'
