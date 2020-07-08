@@ -32,7 +32,7 @@ class TestIsUnique(unittest.TestCase):
         assert is_unique('unique') is False
         assert is_unique('\n\n') is False
         assert is_unique('\\\\') is False
-        
+
         assert is_unique('sam kasbawala', ds=False) is False
         assert is_unique('test', ds=False) is False
         assert is_unique('unique', ds=False) is False
