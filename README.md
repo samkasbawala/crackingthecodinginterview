@@ -3,9 +3,9 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 
 ## Contents:
 [Chapter 1: Arrays and Strings](#arrays-and-strings)
-- [1.1: Is Unique](#1.1-is-unique)
-- [1.2: Check Permutation](#1.2-check-permutation)
-- [1.3: URLify](#1.3-urlify)
+- [1.1: Is Unique](#1\.1-is-unique)
+- [1.2: Check Permutation](#1\.2-check-permutation)
+- [1.3: URLify](#1\.3-urlify)
 
 ## Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
