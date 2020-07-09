@@ -6,6 +6,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [1.1: Is Unique](#11-is-unique)
 - [1.2: Check Permutation](#12-check-permutation)
 - [1.3: URLify](#13-urlify)
+- [1.4: Palindrome Permutation](#14-palindrome-permutation)
 
 ## Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -17,7 +18,15 @@ Implement an algorithm to determine if a string has all unique characters. What 
 Given two strings, write a method to decide if one is a permutation of the other.
 
 ### 1.3 URLify
-Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold the additional characters, and the you are given the "true" length of the string.\
-EXAMPLE\
+Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold the additional characters, and the you are given the "true" length of the string.
+
+**EXAMPLE**\
 Input:  'Mr John Smith    ', 13\
 Output: 'Mr%20John%20Smith'
+
+### 1.4 Palindrome Permutation
+Given a string, write a function to check if it is a permutation of a palindrome. You can ignore casing and non-letter characters.
+
+**EXAMPLE**\
+Input: Tact Coa\
+Output: True (permuattions: 'taco cat', 'atco cta', etc.)
