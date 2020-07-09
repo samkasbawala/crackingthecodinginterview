@@ -1,15 +1,16 @@
 # Cracking the Coding Interview
-This repo is designed to help me prepare for upcoming coding interviews. In this repo, you will find ***my attempts*** to solving various interview questions. This repo is following the 6th edition of "Cracking the Coding Interview". Note that not every question will be solved. If you stumble across this repo, it might help you get an idea of some of the questions to expect in an interview. This repo is not a replacement for the book or any other medium of studying; it's simply an aid. It allows me to put my code in one place and allows me to access it wherever I go. For the small number of you who do come across this repo, feel free to fork it and add your own spin and don't hesitate to make a pull request if you think I made an error. Happy studying :)
+This repo is designed to help me prepare for upcoming coding interviews. In this repo, you will find ***my attempts*** to solving various interview questions. This repo is following the 6th edition of "Cracking the Coding Interview". Note that not every question will be solved. If you stumble across this repo, it might help you get an idea of some of the questions to expect in an interview. This repo is not a replacement for the book or any other medium of studying; it's simply an aid. It allows me to put my code in one place and allows me to access it wherever I go. For the small number of you who do come across this repo, feel free to fork it and add your own spin and don't hesitate to make a pull request if you think I made an error. I highly reccommend reading the questions below and trying them yourselves first before looking at my solutions. I know that there is already a github repo for the solutions for this book, but I thought making my own repo would help me learn better. Hope this helps! Happy studying :)
 
 ## Contents:
-[Chapter 1: Arrays and Strings](#arrays-and-strings)
+[Chapter 1: Arrays and Strings](#chapter-1-arrays-and-strings)
 - [1.1: Is Unique](#11-is-unique)
 - [1.2: Check Permutation](#12-check-permutation)
 - [1.3: URLify](#13-urlify)
 - [1.4: Palindrome Permutation](#14-palindrome-permutation)
 - [1.5: One Away](#15-one-away)
+- [1.6: String Compression](#16-string-compression)
 
-## Arrays and Strings
+## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
 
 ### 1.1 Is Unique
@@ -40,3 +41,6 @@ pale, ple -> True\
 pale, pales -> True\
 pale, bale -> True\
 pale, bake -> False
+
+### 1.6 String Compression
+Implement a method to perform basic string compression using the counts od repeated characters. For example the string *aabcccccaaa* would become *a2b1c5a3*. If the "compressed" string would not become smaller than the original string, your method should return the original string. You can assume the sting only has upper case and lowercase letters.
