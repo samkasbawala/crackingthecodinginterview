@@ -7,6 +7,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [1.2: Check Permutation](#12-check-permutation)
 - [1.3: URLify](#13-urlify)
 - [1.4: Palindrome Permutation](#14-palindrome-permutation)
+- [1.5: One Away](#15-one-away)
 
 ## Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -30,3 +31,12 @@ Given a string, write a function to check if it is a permutation of a palindrome
 **EXAMPLE**\
 Input: Tact Coa\
 Output: True (permuattions: 'taco cat', 'atco cta', etc.)
+
+### 1.5 One Away
+There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
+
+**EXAMPLE**\
+pale, ple -> True\
+pale, pales -> True\
+pale, bale -> True\
+pale, bake -> False
