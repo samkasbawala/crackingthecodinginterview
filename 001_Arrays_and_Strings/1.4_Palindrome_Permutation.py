@@ -1,11 +1,12 @@
 __author__ = 'Sam Kasbawala'
 __credits__ = 'Sam Kasbawala'
 
-from math import factorial
+from math import factorial, log2
 import unittest
 import re
 
 
+############################## MY FIRST ATTEMPT ##############################
 def is_palindrome_permutation(string: str) -> bool:
     """Checks if the inputted string is a permutation of a palindrome"""
 
@@ -65,6 +66,37 @@ def is_palindrome(string: str) -> bool:
     return True
 
 
+############################# MY SECOND ATTEMPT #############################
+def is_palindrome_permutation_2(string: str) -> bool:
+    """Checks if the inputted string is a permutation of a palindrome
+
+    This function is better as it does not actually compute the different
+    permutations. Instead, we look at the count of the different letters. If
+    the string has an even length, then the counts of each of the characters
+    must be even. If the length of the string is odd, then then only one
+    character may have an odd count.
+    """
+    # Remove anny non-letter characters and make the string lowercase
+    string = re.sub('[^a-zA-Z]', '', string)
+    string = string.lower()
+
+    # List to store counts of each character
+    counts = [0] * (ord('z') - ord('a') + 1)
+
+    for char in string:
+        counts[ord(char)-ord('a')] ^= 1
+
+    # Convert binary string to decimal
+    bit = int(''.join([str(i) for i in counts]), 2)
+
+    # If string length is even, bit integer must be 0
+    if len(string) % 2 == 0:
+        return bit == 0
+    # If odd, bit integer must be a power of two (i.e. one 1)
+    else:
+        return log2(bit).is_integer()
+
+
 class TestPalindromePermutation(unittest.TestCase):
     def test_is_palindrome(self):
         assert is_palindrome('kayak') is True
@@ -88,10 +120,24 @@ class TestPalindromePermutation(unittest.TestCase):
         assert is_palindrome_permutation('hello') is False
         assert is_palindrome_permutation('sam') is False
         assert is_palindrome_permutation('coding') is False
+        assert is_palindrome_permutation('test') is False
 
         assert is_palindrome_permutation('nono') is True
         assert is_palindrome_permutation('Tact Coa') is True
         assert is_palindrome_permutation('kayak') is True
+        assert is_palindrome_permutation('rccarae') is True
+
+    def test_is_palindrome_permutation_2(self):
+        assert is_palindrome_permutation_2('hello') is False
+        assert is_palindrome_permutation_2('sam') is False
+        assert is_palindrome_permutation_2('coding') is False
+        assert is_palindrome_permutation_2('test') is False
+
+        assert is_palindrome_permutation_2('') is True
+        assert is_palindrome_permutation_2('nono') is True
+        assert is_palindrome_permutation_2('Tact Coa') is True
+        assert is_palindrome_permutation_2('kayak') is True
+        assert is_palindrome_permutation_2('rccarae') is True
 
 
 if __name__ == '__main__':
