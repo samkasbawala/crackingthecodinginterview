@@ -10,6 +10,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [1.5: One Away](#15-one-away)
 - [1.6: String Compression](#16-string-compression)
 - [1.7: Rotate Matrix](#17-rotate-matrix)
+- [1.8: Zero Matrix](#18-zero-matrix)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -48,3 +49,6 @@ Implement a method to perform basic string compression using the counts od repea
 
 ### 1.7 Rotate Matrix
 Given an image represented by an N x N matrix, where each pixel in the image is represented by an integer, write a method to rotate the imaage by 90 degrees. Can you do this in place?
+
+### 1.8 Zero Matrix
+Write an algorithm such that if an element in an M x N matrix is 0, its entire row or column is set to 0
