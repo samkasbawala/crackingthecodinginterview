@@ -5,7 +5,10 @@ import unittest
 
 
 def is_one_away(string1, string2) -> bool:
-    """Checks if two strings are just one edit away"""
+    """Checks if two strings are just one edit away
+
+    Runs in O(min(n, m)) where n is the length of string1 and m is the length
+    of string2 since we iterate through the strings together once."""
 
     # Check lengths
     if abs(len(string1) - len(string2)) > 1:

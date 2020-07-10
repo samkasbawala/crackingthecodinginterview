@@ -5,7 +5,10 @@ import unittest
 
 
 def is_permutation(string1: str, string2: str) -> bool:
-    """Determines whether or not two strings are permutations of the other"""
+    """Determines whether or not two strings are permutations of the other
+
+    Runs in O(n) time since dictionary lookups take constant time on average
+    """
 
     # Cannot be permutations if they are different lengths
     if len(string1) != len(string2):

@@ -5,6 +5,11 @@ import unittest
 
 
 def urlify(char_array: list or str, true_length: int) -> list:
+    """Function will replace spaces in a string with '%20'. Assumes that the
+    string has sufficient space at the end to hold the extra characters
+
+    Runs in O(n) time since we just iterate throught the string.
+    """
     if type(char_array) is str:
         char_array = list(char_array)
 

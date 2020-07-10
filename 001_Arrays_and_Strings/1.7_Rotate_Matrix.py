@@ -8,7 +8,7 @@ def rotate(image: list, n: int) -> list:
     """This function rotates the image (represented by a two dimensional
     array) 90 degrees clockwise
 
-    This function runs in O(n^2 + n^log(n)) = O(n^2log(n))
+    This function runs in O(n^2 + n^2log(n)) = O(n^2log(n))
     """
     # Create an empty 2D list
     rotated = [[None for _ in range(n)] for _ in range(n)]

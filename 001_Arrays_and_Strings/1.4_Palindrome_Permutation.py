@@ -8,7 +8,11 @@ import re
 
 ############################## MY FIRST ATTEMPT ##############################
 def is_palindrome_permutation(string: str) -> bool:
-    """Checks if the inputted string is a permutation of a palindrome"""
+    """Checks if the inputted string is a permutation of a palindrome
+
+    Runs in O(n!) time since we calculate all the permutations of a given
+    string
+    """
 
     # Get permutations
     permutations = set(get_permutations(string))
@@ -74,7 +78,7 @@ def is_palindrome_permutation_2(string: str) -> bool:
     permutations. Instead, we look at the count of the different letters. If
     the string has an even length, then the counts of each of the characters
     must be even. If the length of the string is odd, then then only one
-    character may have an odd count.
+    character may have an odd count. Runs in O(n) time.
     """
     # Remove anny non-letter characters and make the string lowercase
     string = re.sub('[^a-zA-Z]', '', string)

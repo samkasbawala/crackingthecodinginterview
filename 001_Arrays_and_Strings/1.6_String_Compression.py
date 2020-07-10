@@ -6,7 +6,9 @@ import re
 
 
 def compress(string):
-    """This function compresses the string"""
+    """This function compresses the string
+
+    Runs O(n) time since we walk through the string once."""
 
     # If the length of the string is less than 2
     if len(string) < 2:
