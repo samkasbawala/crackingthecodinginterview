@@ -11,6 +11,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [1.6: String Compression](#16-string-compression)
 - [1.7: Rotate Matrix](#17-rotate-matrix)
 - [1.8: Zero Matrix](#18-zero-matrix)
+- [1.9: String Rotation](#19-string-rotation)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -52,3 +53,6 @@ Given an image represented by an N x N matrix, where each pixel in the image is 
 
 ### 1.8 Zero Matrix
 Write an algorithm such that if an element in an M x N matrix is 0, its entire row or column is set to 0
+
+### 1.9 String Rotation
+Assume you have a method `isSubstring` which checks if one word is a substring of another. Given two strings, `s1` and `s2`, write code to check if `s2` is a rotation of `s1` using only one call to `isSubstring` (e.g. "waterbottle" is a rotation if "erbottlewat")
