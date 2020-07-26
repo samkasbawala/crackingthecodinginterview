@@ -3,15 +3,18 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 
 ## Contents:
 [Chapter 1: Arrays and Strings](#chapter-1-arrays-and-strings)
-- [1.1: Is Unique](#11-is-unique)
-- [1.2: Check Permutation](#12-check-permutation)
-- [1.3: URLify](#13-urlify)
-- [1.4: Palindrome Permutation](#14-palindrome-permutation)
-- [1.5: One Away](#15-one-away)
-- [1.6: String Compression](#16-string-compression)
-- [1.7: Rotate Matrix](#17-rotate-matrix)
-- [1.8: Zero Matrix](#18-zero-matrix)
-- [1.9: String Rotation](#19-string-rotation)
+- [1.1 Is Unique](#11-is-unique)
+- [1.2 Check Permutation](#12-check-permutation)
+- [1.3 URLify](#13-urlify)
+- [1.4 Palindrome Permutation](#14-palindrome-permutation)
+- [1.5 One Away](#15-one-away)
+- [1.6 String Compression](#16-string-compression)
+- [1.7 Rotate Matrix](#17-rotate-matrix)
+- [1.8 Zero Matrix](#18-zero-matrix)
+- [1.9 String Rotation](#19-string-rotation)
+
+[Chapter 2: Linked Lists](#chapter-2-linked-lists)
+- [2.1 Remove Dups](#21-remove-dups)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -56,3 +59,9 @@ Write an algorithm such that if an element in an M x N matrix is 0, its entire r
 
 ### 1.9 String Rotation
 Assume you have a method `isSubstring` which checks if one word is a substring of another. Given two strings, `s1` and `s2`, write code to check if `s2` is a rotation of `s1` using only one call to `isSubstring` (e.g. "waterbottle" is a rotation if "erbottlewat")
+
+## Chapter 2: Linked Lists
+In this chapter we will go over some interview questions regarding linked lists. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
+
+### 2.1 Remove Dups
+Write code to remove duplicates from an unsorted linked list
