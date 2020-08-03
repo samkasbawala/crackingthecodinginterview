@@ -16,6 +16,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 [Chapter 2: Linked Lists](#chapter-2-linked-lists)
 - [2.1 Remove Dups](#21-remove-dups)
 - [2.2 Return Kth to Last](#22-return-kth-to-last)
+- [2.3 Delete Middle Node](#23-delete-middle-node)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -69,3 +70,6 @@ Write code to remove duplicates from an unsorted linked list
 
 ### 2.2 Return Kth to Last
 Implement an algorithm to find the kth to last element of a singly linked list
+
+### 2.3 Delete Middle Node
+Implement an algorithm to delete a node in the middle of a singly linked list, given only access to that node.
