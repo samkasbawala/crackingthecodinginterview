@@ -19,6 +19,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [2.3 Delete Middle Node](#23-delete-middle-node)
 - [2.5 Sum Lists](#25-sum-lists)
 - [2.6 Palindrome](#26-palindrome)
+- [2.7 Intersection](#27-intersection)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -81,3 +82,6 @@ You have two numbers represented by a linked list, where each mode contains a si
 
 ## 2.6 Palindrome
 Implement a function to check if a linked list is a palindrome
+
+## 2.7 Intersection
+Given two (singly) linked lists, determine if the two lists intersect. Return the intersecting node. Note that the intersection is defined based on reference, not value. That is, if the *k*th node of the first linked list is the exact same node (by reference) as the *j*th node of the second linked list, then they are intersecting
