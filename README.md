@@ -22,6 +22,9 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [2.7 Intersection](#27-intersection)
 - [2.8 Loop Detection](#28-loop-detection)
 
+[Chapter 3: Stacks and Queues](#chapter-3-stacks-and-queues)
+- [3.1 Three in One](#31-three-in-one)
+
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
 
@@ -89,3 +92,9 @@ Given two (singly) linked lists, determine if the two lists intersect. Return th
 
 ## 2.8 Loop Detection
 Given a linked list which might contain a loop, implement an algorithm that returns the node at the beginning of the loop
+
+## Chapter 3: Stacks and Queues
+In this chapter, we will go over some interview questions regarding stacks and queues. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
+
+### 3.1 Three in One
+Describe how you could use a single array to implement three stacks.
