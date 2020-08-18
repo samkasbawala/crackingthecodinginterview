@@ -84,13 +84,13 @@ Implement an algorithm to delete a node in the middle of a singly linked list, g
 ### 2.5 Sum Lists
 You have two numbers represented by a linked list, where each mode contains a single digit. The digits are stored in *reverse* order, such that the 1's digit is at the head of the list. Write a function that adds the two numbers and returns the sum as a linked list.
 
-## 2.6 Palindrome
+### 2.6 Palindrome
 Implement a function to check if a linked list is a palindrome
 
-## 2.7 Intersection
+### 2.7 Intersection
 Given two (singly) linked lists, determine if the two lists intersect. Return the intersecting node. Note that the intersection is defined based on reference, not value. That is, if the *k*th node of the first linked list is the exact same node (by reference) as the *j*th node of the second linked list, then they are intersecting
 
-## 2.8 Loop Detection
+### 2.8 Loop Detection
 Given a linked list which might contain a loop, implement an algorithm that returns the node at the beginning of the loop
 
 ## Chapter 3: Stacks and Queues
