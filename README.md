@@ -25,6 +25,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 [Chapter 3: Stacks and Queues](#chapter-3-stacks-and-queues)
 - [3.1 Three in One](#31-three-in-one)
 - [3.2 Stack Min](#32-stack-min)
+- [3.3 Stack of Plates](#33-stack-of-plates)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -102,3 +103,6 @@ Describe how you could use a single array to implement three stacks.
 
 ### 3.2 Stack Min
 How would you design a stack which, in addition to `push` and `pop`, has a function `min` which returns the minimum element? `push`, `pop`, and `min` should all operate in O(1) time
+
+### 3.3 Stack of Plates
+Imagine a (literal) stack of plates. If the stack gets too high, it might topple. Therefore, in real life, we would likely start a new stack when the previous stack exceeds some threshold. Implement a data structure `SetOfStacks` that mimics this. `SetOfStacks` should be composed of several stacks and should create new stack once the previous one exceeds capacity. `SetOfStacks.pop()` and `SetOfStacks.push()` should behave identically to a single stack. 
