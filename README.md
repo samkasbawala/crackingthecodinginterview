@@ -27,6 +27,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [3.2 Stack Min](#32-stack-min)
 - [3.3 Stack of Plates](#33-stack-of-plates)
 - [3.4 Queue via Stacks](#34-queue-via-stacks)
+- [3.5 Sort Stack](#35-sort-stack)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -110,3 +111,6 @@ Imagine a (literal) stack of plates. If the stack gets too high, it might topple
 
 ### 3.4 Queue via Stacks
 Implement a `MyQueue` class which implements a queue using two stacks
+
+### 3.5 Sort Stack
+Write a program to sort a stack such that the smallest items are on top. You can use an additional temporary stack, but you may not copy the elements into any other data structure. The stack supports the following operations, `push`, `pop`, `peek`, and `isEmpty`
