@@ -17,7 +17,7 @@ class Queue():
         self.tail = None
         self._len = 0
 
-    def add(self, value):
+    def enqueue(self, value):
         """Adds a new element to the end of the queue"""
 
         new_node = self.QueueNode(value)
@@ -28,7 +28,7 @@ class Queue():
             self.tail = new_node
         self._len += 1
 
-    def remove(self):
+    def dequeue(self):
         """Returns and removes the element at the beginning of the queue"""
 
         if self.head is None:
