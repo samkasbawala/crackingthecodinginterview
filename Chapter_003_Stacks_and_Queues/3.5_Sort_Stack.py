@@ -3,7 +3,7 @@ __credits__ = 'Sam Kasbawala'
 
 
 import unittest
-from stack import Stack
+from mystack import Stack
 
 
 class SortStack(Stack):
