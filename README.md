@@ -30,6 +30,9 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [3.5 Sort Stack](#35-sort-stack)
 - [3.6 Animal Shelter](#36-animal-shelter)
 
+[Chapter 4: Trees and Graphs](#chapter-4-trees-and-graphs)
+- [4.1 Route Between Nodes](#41-route-between-nodes)
+
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
 
@@ -118,3 +121,9 @@ Write a program to sort a stack such that the smallest items are on top. You can
 
 ### 3.6 Animal Shelter
 An animal shelter, which holds only dogs and cats, operates on a strictly "first in, first out" basis. People must adopt either the "oldest" (based on arrival time) of all animals at the shelter, or they can select whether they would prefer a dog or a cat (and will receive the oldest animal of that type). They cannot select which specific animal they would like. Create the data structures to maintain this system and implement operations such as `enqueue`, `dequeueAny`, `dequeueDog`, and `dequeueCat`.
+
+## Chapter 4: Trees and Graphs
+In this chapter, we will go over some interview questions regarding trees and graphs. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
+
+### 4.1 Route Between Nodes
+Given a directed graph and two nodes, `S` and `E`, design an algorithm to find out whether there is a route from `S` to `E`
