@@ -33,6 +33,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 [Chapter 4: Trees and Graphs](#chapter-4-trees-and-graphs)
 - [4.1 Route Between Nodes](#41-route-between-nodes)
 - [4.2 Minimal Tree](#42-minimal-tree)
+- [4.3 Lists of Depths](#43-list-of-depths)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -131,3 +132,6 @@ Given a directed graph and two nodes, `S` and `E`, design an algorithm to find o
 
 ### 4.2 Minimal Tree
 Given a sorted (increasing order) array with unique integer elements, write an algorithm to create a binary search tree with minimal height
+
+### 4.3 List of Depths
+Given a binary tree design algorithm which creates a linked list of all the nodes at each depth (e.g. if you have a tree with depth D, you'll have D linked lists)
