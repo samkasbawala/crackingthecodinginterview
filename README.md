@@ -34,7 +34,8 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [4.1 Route Between Nodes](#41-route-between-nodes)
 - [4.2 Minimal Tree](#42-minimal-tree)
 - [4.3 Lists of Depths](#43-list-of-depths)
-- [4.4 Check Balanced](#44-check-balance)
+- [4.4 Check Balanced](#44-check-balanced)
+- [4.5 Validate BST](#45-validate-bst)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -137,4 +138,8 @@ Given a sorted (increasing order) array with unique integer elements, write an a
 ### 4.3 List of Depths
 Given a binary tree design algorithm which creates a linked list of all the nodes at each depth (e.g. if you have a tree with depth D, you'll have D linked lists)
 
-### 4.4 Implement a function to check if a binary tree is balanced. For the purposes of this question, a balanced tree is defined to be a tree such that the heights of the two subtrees of any node differ by more than one
+### 4.4 Check Balanced
+Implement a function to check if a binary tree is balanced. For the purposes of this question, a balanced tree is defined to be a tree such that the heights of the two subtrees of any node differ by more than one
+
+### 4.5 Validate BST
+Implement a function to check if a binary tree is binary search tree
