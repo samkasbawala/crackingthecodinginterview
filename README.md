@@ -36,6 +36,7 @@ This repo is designed to help me prepare for upcoming coding interviews. In this
 - [4.3 Lists of Depths](#43-list-of-depths)
 - [4.4 Check Balanced](#44-check-balanced)
 - [4.5 Validate BST](#45-validate-bst)
+- [4.6 Successor](#46-successor)
 
 ## Chapter 1: Arrays and Strings
 In this chapter we will go over some interview questions regarding arrays and strings. Again, these questions are from the 6th edition of "Cracking the Coding Interview". In this chapter, each of the questions will be listed. You can find my code to each question in the subsequent chapter folders. Each question will have it's own python file.
@@ -143,3 +144,6 @@ Implement a function to check if a binary tree is balanced. For the purposes of 
 
 ### 4.5 Validate BST
 Implement a function to check if a binary tree is binary search tree
+
+### 4.6 Successor
+Write an algorithm to find the "next" node (i.e. in-order successor) of a given node in a binary search tree. You may assume that each node has a link to its parent
